@@ -1,0 +1,48 @@
+# created by virtualenv automatically
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+*.ipynb_checkpoints
+.venv/
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Модели и веса
+*.joblib
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Transformers (модели и токенизаторы)
+bert/
+tokenizer/
+*.bin
+*.json
+
+other/
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+
+logs/
+*.log
+*.tmp
+.DS_Store
+*.cache
+*.gz
+
+*.env
+secrets.json
+
